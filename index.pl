@@ -47,10 +47,10 @@ print <<EOD;
 <div id="preface">
 
 <p>
-The idea of this test is to show you that it can be very difficult to find out if a piece of code is written by a male or a female programmer.
+The idea of this test is to show you that it can be very difficult, or even impossible, to find out if a piece of code is written by a male or a female programmer.
 I had been teaching first year students in Novosibirsk (Russia) for a few years, and I have a database containing all their solutions to 
 simple tasks, such as basic algorithms, searching, sorting, and graphs; most of them are written in C, some in C++.
-That's a big amount of data that can be used for making funny things like this one.
+That's a big amount of data that can be used for making funny things like this one. Quite often in discussions you can hear or read something about the quality of the code written by male or female developers; I hope this test will show you that no such difference exists. After all, google the title of this page.
 </p>
 
 <p>
