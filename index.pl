@@ -123,6 +123,7 @@ var counter = -1;
 var correct = 0;
 var codelist = $jsondump;
 var total = codelist.length;
+var answerSelected = false;
 
 function next()
 {
@@ -150,6 +151,7 @@ function next()
         document.getElementById('self').style.color = 'black';
         ++counter;
         show(counter);
+        answerSelected = false;
     }
 }
 
@@ -166,6 +168,12 @@ function show(number)
 
 function selected(gender)
 {
+    if (answerSelected)
+    {
+        return;
+    }
+    answerSelected = true;
+
     if (gender === codelist[counter]['gender'])
     {
         ++correct;
